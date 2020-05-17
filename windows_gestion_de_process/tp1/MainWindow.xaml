@@ -1,0 +1,58 @@
+﻿<Window x:Class="tp1.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:tp1"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="615.292" Closing="Window_Closing" Closed="Window_Closed">
+    <Window.Resources>
+        <Style x:Key="ListViewItemStyle" TargetType="{x:Type ListViewItem}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="399" Margin="10,10,0,0" VerticalAlignment="Top" Width="587" Source="Resources/timg.jpg"/>
+        <Menu HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="607">
+            <MenuItem Header="Start" Height="33" FontSize="14" FontFamily="Arial" Width="44">
+                <MenuItem Header="Start Ballon" Click="StartBallon"></MenuItem>
+                <MenuItem Header="Start Premier" Click="StartPremier"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Delete" Height="33" FontSize="14" FontFamily="Arial" Width="54">
+                <MenuItem Header="Delete last process" Click="DeleteLastProcess"></MenuItem>
+                <MenuItem Header="Delete last Ballon process" Click="DeleteLastBallon"></MenuItem>
+                <MenuItem Header="Delete last Premier process" Click="DeleteLastPremier"></MenuItem>
+                <MenuItem Header="Delete all Ballon processes" Click="DeleteAllBallons"></MenuItem>
+                <MenuItem Header="Delete all Premier processes" Click="DeleteAllPremiers"></MenuItem>
+                <MenuItem Header="Delete all processes" Click="DeleteAllProcesses"></MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="menuHideShow" Header="Hide" Height="33" FontSize="14" FontFamily="Arial" Click="HideAndShowProcess" Width="45" />
+            <MenuItem Header="Quit" Height="33" FontSize="14" FontFamily="Arial" Click="QuitWindowTP" Width="40" />
+        </Menu>
+        <ListView x:Name="numberListView" ItemsSource="{Binding}" ItemContainerStyle="{StaticResource ResourceKey=ListViewItemStyle}" HorizontalAlignment="Left" Height="42" Margin="0,34,0,0" VerticalAlignment="Top" Width="607">
+            <ListView.View>
+                <GridView x:Name="numberGV">
+                    <GridViewColumn x:Name="ballonNumberGVC" Width="297" Header="Ballon processes number" DisplayMemberBinding="{Binding ballonNumber}" />
+                    <GridViewColumn x:Name="premierNumberGVC" Width="298" Header="Premier processes number" DisplayMemberBinding="{Binding premierNumber}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="ballonListView" ItemsSource="{Binding}" ItemContainerStyle="{StaticResource ResourceKey=ListViewItemStyle}" HorizontalAlignment="Left" Height="137" Margin="0,76,0,0" VerticalAlignment="Top" Width="303">
+            <ListView.View>
+                <GridView x:Name="ballonGV">
+                    <GridViewColumn x:Name="ballonPIDGVC" Header="Ballon process PID" Width="126" DisplayMemberBinding="{Binding ballonPID}" />
+                    <GridViewColumn x:Name="ballonCreationTimeGVC" Header="Creation time" Width="165" DisplayMemberBinding="{Binding ballonCreationTime}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="premierListView" ItemsSource="{Binding}" ItemContainerStyle="{StaticResource ResourceKey=ListViewItemStyle}" HorizontalAlignment="Left" Height="137" Margin="303,76,0,0" VerticalAlignment="Top" Width="304">
+            <ListView.View>
+                <GridView x:Name="premierGV">
+                    <GridViewColumn x:Name="premierPIDGVC" Header="Premier process PID" Width="127" DisplayMemberBinding="{Binding premierPID}" />
+                    <GridViewColumn x:Name="premierCreationTimeGVC" Header="Creation time" Width="165" DisplayMemberBinding="{Binding premierCreationTime}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

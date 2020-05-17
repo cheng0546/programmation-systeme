@@ -1,0 +1,6 @@
+G:\os_windows\ProcessClass\bin\Debug\ProcessClass.dll
+G:\os_windows\ProcessClass\bin\Debug\ProcessClass.pdb
+G:\os_windows\ProcessClass\obj\Debug\ProcessClass.csprojAssemblyReference.cache
+G:\os_windows\ProcessClass\obj\Debug\ProcessClass.csproj.CoreCompileInputs.cache
+G:\os_windows\ProcessClass\obj\Debug\ProcessClass.dll
+G:\os_windows\ProcessClass\obj\Debug\ProcessClass.pdb
