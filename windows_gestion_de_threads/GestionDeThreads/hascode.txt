@@ -1,0 +1,10 @@
+Bonjour,
+
+Une erreur affichiait toujours quand j'ai fait signer l'assembly, elle a décrit "Impossible de terminer l'opération", je pouvais bien créer des fichiers ".pfx" pour mes composants, mais  j'ai l'impression que c'est une erreur sépciale, car je n'ai pas trouvé une solution sur Internet pour ce même problème, j'ai un doute que c'est à cause de mon Visual Studio.
+
+Bien cordialement,
+Cheng ZHEN
+
+------------------------------------
+appPasswd : gestionthreads
+premierPasswd : premier

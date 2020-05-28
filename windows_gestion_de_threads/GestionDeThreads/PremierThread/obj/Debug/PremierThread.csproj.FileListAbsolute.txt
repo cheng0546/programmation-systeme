@@ -1,0 +1,6 @@
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\bin\Debug\PremierThread.dll
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\bin\Debug\PremierThread.pdb
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\obj\Debug\PremierThread.csproj.CoreCompileInputs.cache
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\obj\Debug\PremierThread.dll
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\obj\Debug\PremierThread.pdb
+G:\os_windows\windows_gestion_de_threads\GestionDeThreads\PremierThread\obj\Debug\PremierThread.csprojAssemblyReference.cache
