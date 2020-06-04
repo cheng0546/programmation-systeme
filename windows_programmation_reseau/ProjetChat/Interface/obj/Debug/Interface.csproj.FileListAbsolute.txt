@@ -1,0 +1,6 @@
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\bin\Debug\Interface.dll
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\bin\Debug\Interface.pdb
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\obj\Debug\Interface.dll
+G:\os_windows\windows_programmation_reseau\ProjetChat\Interface\obj\Debug\Interface.pdb

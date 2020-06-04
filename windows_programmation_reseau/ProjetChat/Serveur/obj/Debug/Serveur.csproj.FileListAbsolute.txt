@@ -1,0 +1,9 @@
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\bin\Debug\Serveur.exe
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\bin\Debug\Serveur.pdb
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\bin\Debug\Interface.dll
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\bin\Debug\Interface.pdb
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\obj\Debug\Serveur.csprojAssemblyReference.cache
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\obj\Debug\Serveur.csproj.CoreCompileInputs.cache
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\obj\Debug\Serveur.csproj.CopyComplete
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\obj\Debug\Serveur.exe
+G:\os_windows\windows_programmation_reseau\ProjetChat\Serveur\obj\Debug\Serveur.pdb
